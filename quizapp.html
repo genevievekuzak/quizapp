@@ -1,0 +1,45 @@
+<!DOCTYPE <html>
+<html lang="en">
+<head>    
+    <meta charset="utf-8">
+    <meta name="description" type="A quiz app">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quizapp.css">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+    <div class="heading">
+        <h1 class="quiztitle">Wild World of Cryptids Quiz</h1>
+    </div>
+ </header>
+
+  <main>
+         <ul class="question-score-counter">
+              <li class="question-counter">
+                 Question:
+                 <span class="question-number">0</span>
+                 /7
+              </li>
+              <li class="score">
+                Score:
+               <span class="score-number">0</span>
+            </li>
+         </ul>
+        <div class="start-container">
+          <h1 class="intro">To test your knowledge of cryptids...</h1> 
+             <button type="button" class="startbutton button">Click here!</button>
+          <div class="cryptid-img-start">
+             <img class="start-img" src="img/Sitting-Dragon-PNG-Image-Transparent-Background.png">
+          </div>
+        </div>
+        <div class="question-answer-box"></div>
+        <div class="response-box"><button type="button" class="next-button button">Next</button></div>
+        <div class="final-score"></div>
+    </main>
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.js" 
+ integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+ crossorigin="anonymous"></script>
+ <script src="quizapp.js"></script>
+</body>
+</html>
